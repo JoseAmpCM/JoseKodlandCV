@@ -1,0 +1,161 @@
+.top-menu{
+  background-color: #d0fa61;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  display: inline-block;
+}
+.top-menu-jose {
+  display: inline-block;
+  margin-right: 300px;
+  font-size: 30px;
+  
+}
+strong {
+  font-size: 37px;
+  letter-spacing: -2.5px;
+}
+.top-menu-nav {
+ display: inline-block;
+ height: 50px;
+ width: 100%;
+ margin: 30px 10%;
+
+}
+
+.topMenu-buttons {
+  display: inline-block;
+}
+button {
+  height: 40px;
+  margin: 0 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 13px;
+  padding: 0px 20px;
+}
+.main-body{
+  margin-top: 100px;
+  margin-left: 25%;
+  padding: 50px 100px 50px 100px;
+}
+.left-menu{
+  position: fixed;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  width: 25%;
+  background-color: #d0fa61;
+}
+.cover-letter {
+  font-size: 24px;
+}
+.section-titles h1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  
+}
+.relevant-experience{
+  background-color: #e7ecff;
+  padding: 30px 70px;
+  border-radius: 30px;
+}
+.pink-triangle {
+ text-shadow: 4px 5px 5px white;
+ color: rgb(252, 114, 254);
+}
+ .company {
+  display: flex;
+  justify-content:left;
+  font-weight:600;
+ }
+ .numbers {
+  font-size: 20px;
+  font:bolder;
+  text-shadow: 1px 2px 3px rgb(53, 55, 113);
+ }
+  .dots{
+    width: 20px;
+    background-color:rgb(89, 136, 255);
+    border-radius: 50%;
+    margin-right:20px;
+  }
+   .job-title {
+    text-align:right;
+    margin-left: 250px;
+   }
+   .date {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 50px;
+   }
+   .job-discription {
+    max-width: 550px;
+   }
+ .job-divider {
+  margin: 50px auto;
+ }
+.professional {
+  padding: 30px 70px;
+}
+.blue-letters {
+  color: rgb(89, 136, 255);
+}
+
+#professional-skills {
+display: flex;
+justify-content: space-between;
+
+}
+#professional-skills > p > span {
+  color: rgb(252, 114, 254);
+}
+#professional-skills > p {
+  font-size: 30px;
+}
+.coding-skills {
+  background-color: #e7ecff;
+  padding: 30px 70px;
+  border-radius: 30px;
+}
+.atributes {
+  padding: 30px 70px;
+}
+.interests {
+  background-color: #e7ecff;
+  padding: 30px 70px;
+  border-radius: 30px;
+}
+.profile-pic {
+  display:block;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+.my-name{
+  text-align: center;
+  margin-top: 5px;
+}
+.my-info-headers{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.side-info{
+  text-align: center;
+  margin-bottom: 5px;
+}
+body {
+  font-family: sans-serif;
+}
+.divider {
+  height: 2px;
+  background-color: rgb(89, 136, 255);
+  border-bottom: none;
+  
+}

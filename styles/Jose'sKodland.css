@@ -1,0 +1,256 @@
+
+
+body {
+  font-family: sans-serif;
+  margin: 0 2rem;
+}
+.top-menu{
+  position:fixed;
+  background: linear-gradient(to bottom left,#d0fa61,#d0fa61,#d0fa61, rgb(233, 250, 211) 80%,#d0fa61,#d0fa61,#d0fa61);
+  height: 7rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  top:0;
+  right: 2rem;
+  left: 2rem;
+}
+.jose-k-resume {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+.jose-k-resume > span {
+  font-weight: bolder;
+  font-size: 2.2rem;
+  letter-spacing: -2.5px;
+}
+.top-menu-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-right: 1rem;
+}
+.top-menu-buttons > a > button {
+  background-color:#d0fa61;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: rgb(47, 47, 47);
+  border: none;
+}
+.top-menu-buttons > a > button:hover{
+  background-color:rgb(248, 248, 237);
+  height: 2.4em;
+  font-weight:bolder;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  margin: -0.8rem;
+}
+ .ex-image {
+  width: 5rem;
+ }
+ .pink-circle {
+  width: 3rem;
+  
+ }
+.side-menu {
+  position:fixed;
+  width: 18rem;
+  height:100%;
+  background-color:#d0fa61;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 7rem;
+  
+  
+}
+ .side-menu > img {
+  border-radius: 1rem;
+  width: 9rem;
+  margin-bottom: -1rem;
+ }
+ .side-menu > div {
+  margin-top: -0.5rem;
+ }
+ .side-menu > div > h2 {
+  text-align:center;
+ }
+ .side-menu > div > p {
+  margin-top: -0.8rem;
+  text-align: center;
+ }
+ main{
+  margin-top: 10rem;
+  margin-left: 22rem;
+  max-width: 65rem;
+ }
+  .cover-letter > h1 {
+    font-size : 2rem;
+  }
+  .cover-letter > p {
+    font-size: 1.5rem;
+  }
+  .blue-letters {
+    color: rgb(89, 136, 255);
+  }
+.relevant-experience {
+  background-color: #e7ecff;
+  border-radius: 30px;
+  max-width: 60rem;
+  margin: 0 auto;
+  
+}
+.section-names {
+  font-size: 2rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-right: 4rem;
+  display: flex; 
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+.pink-triangle {
+  color: rgb(252, 114, 254);
+  text-shadow: 4px 5px 5px white;
+  margin-right: 7rem;
+  
+}
+.relevant-experience > div {
+  display: flex;
+  justify-content: start;
+  margin: 0 2rem;
+  align-items: center;
+}
+.job-spacing {
+ margin: 0 auto;
+}
+.blue-dots {
+ width: 1rem;
+ background-color: rgb(89, 136, 255);
+ border: solid rgb(89, 136, 255);
+ border-radius: 50%;
+ margin-right: 1rem;
+}
+.relevant-experience > div > p {
+  max-width: 35rem;
+  margin-bottom: 2rem;
+}
+.divider {
+  height: .2rem;
+  background-color:rgb(89, 136, 255);
+  border-bottom: none ;
+}
+#job-1 {
+  margin-top: 3rem;
+}
+.stat-letters {
+  font-size:larger;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px rgb(100, 100, 100);
+}
+.section-names-white {
+  font-size: 2rem;
+  margin-left: 4rem;
+  margin-top: .1rem;
+  margin-right: 4rem;
+  margin-bottom: 0.1rem;
+  display: flex; 
+  
+  padding-top: 4rem;
+}
+.professional-skills {
+  display: flex;
+  justify-content: space-around;
+  max-width: 65rem;
+  font-size: 3rem;
+  height: 6rem;
+  
+}
+.atributes-section {
+  max-width: 65rem;
+  background-color:  #e7ecff;
+  margin: 6rem auto;
+  border-radius: 30px;
+}
+.coding-atributes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+.code-atributes-boxes {
+  width: 30%;
+}
+.coding-atributes-titles {
+  font-size: 2rem;
+}
+.atributes-flex {
+  display: flex;
+  justify-content: space-between
+}
+.vertical-divider {
+  width: 0.2rem;
+ background-color:rgb(89, 136, 255);
+ height: 15rem;
+ margin: 2rem 0;
+}
+ .c-75 {
+  background: linear-gradient( to right,#d0fa61 30%, white);
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  border-radius: 10px;
+ }
+ .c-100 {
+  background: #d0fa61;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  border-radius: 10px;
+ }
+ .a-1st {
+  background: white;
+  height: 2rem;
+  width:8rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+  margin-left: -2rem;
+ }
+.a-2nd {
+  background:rgb(89, 136, 255);
+  height: 2rem;
+  width:8rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  border-radius: 10px;
+ }
+ .interests-section {
+  max-width: 60rem;
+ }
+ .interests-section > h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-left: 2rem;
+ }
+  .likes {
+    margin-left: 5rem;
+    max-width: 59rem;
+  }
+  .likes-content {
+    
+    font-size: 1.5rem;
+    
+  }
+  .likes-content > span {
+    font-size: 2rem;
+    color:rgb(89, 136, 255);
+    align-items:start;
+    font-weight: bolder;
+    margin-right: 3rem;
+
+  }
